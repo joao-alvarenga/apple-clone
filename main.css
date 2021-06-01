@@ -400,6 +400,118 @@ section {
     left: 3.4em;
   }
   
+.col-text h4 {
+    color: #111;
+    font-size: 4.5em;
+    user-select: none;
+  }
+  
+  .col-text h5 {
+    color: #222;
+    font-size: 2em;
+    user-select: none;
+  }
+  
+  .col-text p {
+    color: #222;
+    font-size: 2.3em;
+    user-select: none;
+    
+  }
+  
+  .col-a .primary-p {
+    line-height: 2.6em;
+  }
+  
+  .col-a .secondary-p {
+    line-height: 0;
+  }
+  
+  .col-a a {
+    line-height: 4em;
+  }
+  
+  .text-block a {
+    color: var(--main-blue);
+    font-size: 1.9em;
+    cursor: pointer;
+    margin: .4em;
+  }
+  
+  .icon-arrow::after {
+    content: "\f054";
+    font-family: "Font Awesome\ 5 Free";
+    font-weight: 600;
+    padding-right: 1.5em;
+    font-size: 1.2em;
+    color: var(--main-blue);
+  }
+  
+  .col-text .fa-apple {
+    color: #111;
+    pointer-events: none;
+    font-size: 4em;
+    position: absolute;
+    left: 2.309em;
+  }
+  
+  .col-a {
+    line-height: 4em;
+  }
+  
+  .text-col-3 h4 {
+    font-size: 4.5em;
+    color: #222;
+    user-select: none;
+  }
+  
+  .text-col-3 .title-plus {
+    font-size: .9em;
+    font-weight: 500;
+  }
+  
+  .text-col-3 .fa-apple {
+    color: #222;
+    pointer-events: none;
+    font-size: .9em;
+    position: relative;
+    left: 0;
+  }
+  
+  .text-col-3  {
+    position: absolute;
+    bottom: 5em;
+    background-color: transparent;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .text-col-3 a {
+    color: var(--link-color);
+    font-size: 1.9em;
+    cursor: pointer;
+  }
+  
+  .text-col-3 a:hover {
+    text-decoration: underline;
+  }
+  
+  .icon-play::after {
+  content: "\f144";
+  font-family: "Font Awesome\ 5 Free";
+  padding-left: .4em;
+  font-weight: 900;
+  font-size: 1.8em;
+  user-select: none;
+  color: var(--link-color);
+  }
+  
+  .text-block a:hover{
+    text-decoration: underline;
+  }
+  
+  
   
 /* MEDIAS QUERIES */
 @media (max-width: 767px) {  
@@ -624,15 +736,15 @@ section {
     }
     
     .md-module-product {
-      background-image: url(image/image-md-hero.jpg);
+      background-image: url(imagens/image-md-hero.jpg);
     }
     
     .unit-module-product {
-      background-image: url(image/product-unit-mobile.jpg);
+      background-image: url(imagens/product-unit-mobile.jpg);
     }
     
     .avail-module-product {
-      background-image: url(image/product-avail-mobile.jpg);
+      background-image: url(imagens/product-avail-mobile.jpg);
     }
     
     .footer-all-rights .footer-rights {
@@ -924,6 +1036,7 @@ section {
           font-size: 2.5rem;
         }
       }
+
       @media (max-width: 385px) {
         .search-container {
           padding: 2.5% 12% .8%;
@@ -934,9 +1047,11 @@ section {
         font-size: 2em;
         line-height: 2.2em;
       }
+
       .text-col-md .fa-apple {
         left: 2.6em;
       }
+
       .footer-mobile {
         display: inline-block;
         position: absolute;
@@ -971,8 +1086,6 @@ section {
         font-size: 1.2rem;
       }
       }
-    
-    
     
       @media (max-width: 395px) {
         .module-wrapper h3 {
