@@ -21,3 +21,11 @@ if (dropdownOpen.style.display === "block") {
      }
      });
    }
+   
+   $(document).ready(function(){
+
+    $('.open').click(function(){
+       $('.footer-dropdown::after').css('display','none');
+      
+    });
+ });
