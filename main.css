@@ -570,6 +570,86 @@ footer {
     padding: 7px 0;
   }
   
+.footer-all-rights {
+    height: 134px;
+    width: 924px;
+    margin: 0 auto;
+  }
+  
+  .footer-all-rights .footer-rights {
+    height: 38px;
+    width: 100%;
+    border-bottom: 1px solid #8088804b;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-all-rights .footer-rights p {
+   font-size: 1.309em;
+   color: #868b86;
+  }
+  
+  .footer-all-rights .footer-rights a {
+    color: var(--main-blue);
+   }
+  
+  .footer-all-rights a {
+    text-decoration: none;
+  }
+  
+  .footer-all-rights a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-all-rights .footer-rights-link {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .footer-all-rights .footer-rights-link p {
+    font-size: 1.309em;
+    color: #868b86;
+  }
+  
+  .footer-rights-link a {
+    font-size: 1.4em;
+    color: #535553;
+    text-align: center;
+    margin-left: 1em;
+    padding: 0 20px 0 0;
+  }
+  
+  .footer-rights-link .footer-md {
+    right: -2.5em;
+    position: absolute;
+    top: 1em;
+  }
+  
+  .footer-rights-link .footer-md-a {
+    border-right: 1px solid #80888062;
+  }
+  
+  .footer-row-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 30px 0;
+    grid-gap: 2em;
+    align-items: center;
+  }
+  
+  .footer-row-grid div {
+    text-align: center;
+    padding: 2px 0;
+  }
+  
+  .footer-dropdown {
+    pointer-events: none;
+  }
+  
+  
   
 /* MEDIAS QUERIES */
 @media (max-width: 767px) {  
